@@ -1,0 +1,83 @@
+.chat-online {
+    color: #34ce57;
+}
+
+.chat-offline {
+    color: #e4606d
+}
+
+.chat-messages {
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari, and Edge */
+.chat-messages::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.chat-messages {
+    scrollbar-width: none;
+}
+.left-chats {
+    display: flex;
+    flex-direction: column;
+    max-height: 630px;
+    overflow-y: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari, and Edge */
+.left-chats::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.left-chats {
+    scrollbar-width: none;
+}
+@media (max-width: 991px) {
+    .left-chats {
+        
+        max-height: 225px; 
+        margin-bottom: 5px;
+        border-bottom: 1px solid rgb(0, 0, 0);
+    }
+   
+  }
+
+
+.chat-message-left,
+.chat-message-right {
+    display: flex;
+    flex-shrink: 0
+}
+
+.chat-message-left {
+    margin-right: auto;
+    width:52%
+}
+
+.chat-message-right {
+    flex-direction: row-reverse;
+    margin-left: auto;
+    width:52%
+}
+@media (max-width: 991px) {
+    .chat-message-left,
+    .chat-message-right {
+        width: 100%; 
+    }
+    .chat-messages {
+        
+        max-height: 500px;
+        
+    }
+}
+@media (min-width: 991px) {
+    .left-chats{
+        border-right: 1px solid #EEEEEE;
+    }
+}

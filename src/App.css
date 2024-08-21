@@ -1,0 +1,25 @@
+*{
+    font-family: 'Poppins';
+    /* color: #1D191C; */
+  }
+.font-600{
+    font-weight: 600;
+}
+.font-500{
+  font-weight:500;
+}
+.btn-success{
+  background-color: #34920A;
+}
+.bg-success{
+  background-color: #34920A !important;
+}
+.btn-outline-success{
+  color: #34920A;
+}
+.btn-outline-success:hover{
+  background-color: #34920A;
+}
+.text-default{
+  color: #34920A;
+}

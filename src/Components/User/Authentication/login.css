@@ -1,0 +1,24 @@
+.set-login-width{
+width: 25rem !important;
+}
+
+.form-check-input[type="checkbox"]:checked {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+  }
+  @media (max-width: 576px) {
+    .set-login-width {
+      width: 20rem !important;
+    }
+  }
+  .login-image-responsive {
+    height: 100vh;
+    min-height: 100%;
+}
+
+@media (max-width: 576px) {
+    .login-image-responsive {
+        height: auto; /* Maintain proportional scaling on smaller screens */
+        width: 100%;
+    }
+}
